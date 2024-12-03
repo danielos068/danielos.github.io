@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AutoMoto Workshop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #ffffff; /* White font */
+            background-color: #181818; /* Dark background */
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #1d1d1d; /* Slightly darker gray */
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #202020; /* Dark gray */
+            overflow: hidden;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #333333; /* Slightly lighter hover color */
+            border-radius: 4px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack the image and content vertically */
+            max-width: 1200px;
+            margin: auto;
+            padding: 2em;
+            align-items: center; /* Center align items */
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #ffffff; /* Add a border around the image */
+            padding: 10px; /* Add some padding to separate the border from the image */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            background-color: #202020; /* Background color for the image box */
+            margin-bottom: 20px; /* Add some space below the image box */
+            max-width: 400px; /* Maximum width of the container */
+        }
+        .image-container img {
+            width: 80%; /* Make the image smaller */
+            height: auto;
+            border-radius: 8px;
+        }
+        .content {
+            flex: 1;
+            max-width: 1200px;
+        }
+        h1, h2, h3 {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AutoMoto Workshop</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="image-container">
+            <img src="images/oilchange.jpg" alt="Robot oil change">
+        </div>
+        <div class="content">
+            <section id="services">
+                <h1>Car Repairs and Services</h1>
+                <h2>Routine Maintenance</h2>
+                <ul>
+                    <li>Oil Change: Regularly replacing engine oil and oil filter.</li>
+                    <li>Tire Rotation: Rotating tires to ensure even wear.</li>
+                    <li>Brake Inspection: Checking brake pads, rotors, and fluid levels.</li>
+                    <li>Battery Check: Testing and maintaining the car battery.</li>
+                    <li>Fluid Checks: Inspecting and topping off various fluids (coolant, transmission fluid, etc.).</li>
+                </ul>
+
+                <h2>Common Repairs</h2>
+                <ul>
+                    <li>Tire Replacement: Replacing worn or damaged tires.</li>
+                    <li>Brake Repair: Replacing brake pads, rotors, and calipers.</li>
+                    <li>Battery Replacement: Installing a new car battery.</li>
+                    <li>Exhaust System Repair: Fixing or replacing exhaust components.</li>
+                    <li>Ignition System Repair: Replacing spark plugs and ignition coils.</li>
+                </ul>
+
+                <h2>Electrical Repairs</h2>
+                <ul>
+                    <li>Headlight Replacement: Changing burnt-out headlights.</li>
+                    <li>Wiring Issues: Fixing electrical wiring problems.</li>
+                    <li>Alternator Repair: Replacing or repairing the alternator.</li>
+                    <li>Fuse Replacement: Replacing blown fuses.</li>
+                    <li>Electrical System Diagnostics: Identifying and fixing electrical faults.</li>
+                </ul>
+
+                <h2>Cooling System Repairs</h2>
+                <ul>
+                    <li>Radiator Flush: Flushing and refilling the radiator.</li>
+                    <li>Coolant Replacement: Changing the coolant.</li>
+                    <li>Thermostat Replacement: Installing a new thermostat.</li>
+                    <li>Water Pump Repair: Fixing or replacing the water pump.</li>
+                    <li>Heater Core Repair: Replacing or repairing the heater core.</li>
+                </ul>
+
+                <h2>Transmission Repairs</h2>
+                <ul>
+                    <li>Transmission Fluid Change: Replacing transmission fluid.</li>
+                    <li>Transmission Rebuild: Rebuilding or replacing the transmission.</li>
+                    <li>Clutch Replacement: Replacing the clutch in manual transmissions.</li>
+                    <li>Torque Converter Repair: Fixing or replacing the torque converter.</li>
+                    <li>Transmission Diagnostics: Identifying and fixing transmission issues.</li>
+                </ul>
+
+                <h2>Air Conditioning Repairs</h2>
+                <ul>
+                    <li>A/C Recharge: Recharging the air conditioning system.</li>
+                    <li>Compressor Replacement: Installing a new A/C compressor.</li>
+                    <li>Condenser Repair: Fixing or replacing the condenser.</li>
+                    <li>Evaporator Repair: Replacing or repairing the evaporator.</li>
+                    <li>A/C Diagnostics: Identifying and fixing A/C issues.</li>
+                </ul>
+
+                <h2>Suspension and Steering Repairs</h2>
+                <ul>
+                    <li>Shock Absorber Replacement: Installing new shock absorbers.</li>
+                    <li>Strut Replacement: Replacing struts for better ride quality.</li>
+                    <li>Tie Rod Replacement: Fixing or replacing tie rods.</li>
+                    <li>Wheel Alignment: Adjusting the alignment of the wheels.</li>
+                    <li>Steering Rack Repair: Fixing or replacing the steering rack.</li>
+                </ul>
+
+                <h2>Body and Exterior Repairs</h2>
+                <ul>
+                    <li>Paint Touch-Up: Fixing minor paint scratches and chips.</li>
+                    <li>Dent Repair: Removing dents from the car body.</li>
+                    <li>Windshield Replacement: Replacing a cracked or broken windshield.</li>
+                    <li>Bumper Repair: Fixing or replacing damaged bumpers.</li>
+                    <li>Glass Repair: Repairing side and rear windows.</li>
+                </ul>
+
+                <h2>Advanced Repairs</h2>
+                <ul>
+                    <li>Engine Overhaul: Rebuilding the engine.</li>
+                    <li>Transmission Rebuild: Rebuilding the transmission.</li>
+                    <li>Engine Rebuild: Rebuilding the engine for major repairs.</li>
+                    <li>Turbocharger Repair: Fixing or replacing the turbocharger.</li>
+                    <li>Engine Diagnostics: Identifying and fixing complex engine issues.</li>
+                </ul>
+
+                <h2>High Horsepower Modifications</h2>
+                <ul>
+                    <li>Turbocharger Installation: Adding a turbocharger for increased power.</li>
+                    <li>Supercharger Installation: Installing a supercharger to boost engine performance.</li>
+                    <li>Performance Exhaust: Upgrading to high-flow exhaust systems for better engine breathing.</li>
+                    <li>Engine Tuning: Optimizing engine parameters for maximum performance.</li>
+                    <li>Cold Air Intake Systems: Installing cold air intakes to improve air flow and engine efficiency.</li>
+                </ul>
+
+                <h2> Anything!</h2>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AutoMoto Workshop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
